@@ -1,0 +1,212 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden ;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 60px 0;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.nav-bar{
+    display: flex ;
+    gap: 40px;
+
+}
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+.hero-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding: 50px 60px 0;
+
+}
+.hero-img img {
+    max-width: 100%;
+
+}
+.hero-content h1 {
+    margin-top: 70px;
+    font-size:27px ;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.hero-content .hero-pr {
+    font-size: 16px;
+    color: rgb(106, 106, 106);
+    font-weight: normal;
+}
+.form-s{
+    margin-top: 30px;
+}
+.form-s input {
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+}
+.form-s button{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.img img {
+    margin-top: 70px; 
+}
+
+.hero-tow{
+    background-color: #F8F8FE;
+    margin-top: -5px;
+    margin-bottom:70px ;
+}
+.hero-a{
+    color: hsl(170, 45%, 43%) ;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 219px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #cdcdd2af;
+}
+
+.card .content .card-content {
+    color: black;
+    font-weight: normal;
+    font-size: 10px;
+    
+}
+.footer {
+    display: flex;
+    align-items: center;
+
+}
+.footer img {
+    border-radius: 50%;
+    width: 10%;
+}
+.footer-content {
+    margin: 0;
+    padding-left: 10px;
+}
+.footer-content h5 {
+    margin: 0;
+    color:black;
+
+}
+.footer-content p{
+    margin: 0;
+    font-size: 10px;
+    color:rgb(68, 68, 68);
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+    padding: 50px 60px 0;
+    background-color:  #585989;
+    color: white;
+    padding-bottom: 40px;
+}
+.hero .content h1 {
+    font-weight: 700;
+}
+.hero .content p{
+    font-size: 10px;
+    line-height: 1.5;
+}
+.hero .form input{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.hero .form p {
+    margin: 0;
+    font-size: 10px;
+    padding-left: 10px;
+}
+.hero .form button{
+    width: 160px;
+    height: 35px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 2px;
+    margin-top: 8px;
+    padding: 10px ;
+}
+
+footer{
+    padding-top: 50px;
+    padding: 50px 60px 0;
+    color: white;
+    background-color: #070439;
+    display: grid;
+    grid-template-rows: repeat(3, 85px);
+}
+
+
+
+footer img {
+    width: 10%;
+    
+}
+.all-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+}
+.footer-first{
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+}
+.footer-first span {
+    padding-left: 10px;
+}
+.footer-second {
+    display: grid;
+    grid-template-rows: repeat(4, 40px);
+}
+.footer-second a{
+    text-decoration: none;
+    color: white;
+}
+.footer-third{
+    display: grid;
+    grid-template-rows: repeat(3, 40px);
+}
+.footer-third a{
+    text-decoration: none;
+    color: white;
+}
+.footer-last i {
+    color: white;
+    font-size: 25px;
+    padding: 0 10px;
+}
+.nav-bar a:hover{
+    border-bottom: 1px solid black;
+    /* padding-bottom: 10px; */
+}
